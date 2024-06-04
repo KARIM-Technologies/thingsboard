@@ -23,10 +23,11 @@ import { Component } from '@angular/core';
 })
 export class LogoComponent {
 
-  logo = 'assets/logo_title_white.svg';
+  logo = 'assets/owipex.jpeg';
 
   gotoThingsboard(): void {
-    window.open('https://thingsboard.io', '_blank');
+    // window.open('https://thingsboard.io', '_blank');
+    window.open('http://owipex.ch', '_blank');
   }
 
 }
